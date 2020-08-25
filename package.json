@@ -12,6 +12,7 @@
     "react-scripts": "3.4.3"
   },
   "scripts": {
+    "setup": "npm install && npm run build && npm run start",
     "start": "concurrently \"flask run --debugger --reload --port=8080\" \"open-cli http://localhost:8080\"",
     "build": "react-app-rewired build",
     "test": "react-app-rewired test",
