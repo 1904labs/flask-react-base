@@ -1,5 +1,5 @@
 [requires]
-python_version = "3.7.3"
+python_version = "3.8.5"
 
 [packages]
 click = "==7.1.2"
@@ -9,6 +9,9 @@ Jinja2 = "==2.11.2"
 MarkupSafe = "==1.1.1"
 Werkzeug = "==1.0.1"
 webpack-manifest = "*"
+flask-restx = "*"
+pip = "*"
+gunicorn = "*"
 
 [dev-packages]
 pylint = "*"

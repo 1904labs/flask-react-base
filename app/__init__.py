@@ -1,9 +1,8 @@
-from flask import Flask, Blueprint
-from flask import Blueprint, render_template
+from flask import Flask
 
 
-def create_app():
-    flask_app = Flask( __name__, static_folder='./dist')
+def create_app(deployment="production"):
+    flask_app = Flask(__name__, static_folder='./dist')
     with flask_app.app_context():
         from app import routes
 
